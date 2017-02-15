@@ -7,7 +7,15 @@ import { Component } from '@angular/core';
       {{title}}
     </h1>
     <fa-other></fa-other>
-    <fa-another></fa-another>
+    <fa-another>
+      <div>
+        <h1>Hello!</h1>
+        <p>World!</p>
+      </div>
+    </fa-another>
+    <fa-another>
+      <p>Something else</p>
+    </fa-another>
   `,
   styles: [`
     h1 {
