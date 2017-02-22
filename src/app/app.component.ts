@@ -6,22 +6,8 @@ import { Component } from '@angular/core';
     <h1>
       {{title}}
     </h1>
-    <fa-other></fa-other>
-    <fa-another>
-      <div>
-        <h1>Hello!</h1>
-        <p>World!</p>
-      </div>
-    </fa-another>
-    <fa-another>
-      <p>Something else</p>
-    </fa-another>
-  `,
-  styles: [`
-    h1 {
-      color: red;
-    }
-  `]
+    <fa-databinding></fa-databinding>
+  `
 })
 export class AppComponent {
   title = 'ITS ALIVE!';
